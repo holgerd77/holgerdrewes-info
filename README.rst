@@ -1,7 +1,6 @@
 ==================
-holger-drewes.info
+holger-drewes-info
 ==================
 
-Private Website.
+Sources of private website.
 
-* http://holgerdrewes.info
