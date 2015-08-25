@@ -19,7 +19,7 @@
         font-family:'Courier New', Arial;
       }
       .project-box {
-        padding:3px;
+        padding:3px 3px 10px 3px;
       }
       .project-box img {
         padding:3px;
@@ -33,21 +33,22 @@
         font-family:'Courier New', Arial;
       }
       .project-text {
-        min-height: 200px;
+        min-height: 250px;
+      }
+      .project-text h4 {
+        font-size: inherit;
+        margin-top: 4px;
+        font-weight: bold;
       }
       .project-labels {
         font-size: 14px;
-      }
-      .project-desc > a, .default-link {
-        color:#666;
-        text-decoration: underline;
       }
       .project-desc-inverted, .inverted-link {
         background-color:#555 !important;
         color:#fff !important;
       }
-      .project-desc-inverted > a {
-        color:#ccc;
+      .project-desc-inverted a {
+        color:#ccc !important;
       }
       .footer {
         color:#888;
@@ -78,13 +79,16 @@
 
     <div class="container" style="background-color:#fff;border: 0px solid #e5e5e5;margin-bottom:8px;">
       <div class="col-xs-12 col-sm-6 col-md-4 project-box">
-        <a href="https://github.com/holgerd77/django-public-project" target="_blank" alt="Django Public Projekt - Software für Untersuchungsausschüsse - GitHub">
-          <img src="imgs/Screenshot_BERwatch_2015-08-25.png" class="img-responsive" alt="BERwatch - Untersuchungsausschuss BER Berlin - Piratenfraktion">
+        <a href="https://github.com/holgerd77/django-public-project" target="_blank" alt="Django Public Project - Project Transparency CMS - GitHub">
+          <img src="imgs/Screenshot_BERwatch_2015-08-25.png" class="img-responsive" alt="BERwatch - Commission of Enquiry BER Berlin - Pirate Party Faction">
         </a>
         <div class="project-desc">
           <div class="project-text">
-            <b>Django Public Project/BERwatch.</b> Open Source CMS for bringing transparency to big publicly funded
-            projects (<a href="http://django-public-project.org/" target="_blank" alt="Django Public Project - Website">Website</a>|<a href="https://github.com/holgerd77/django-public-project" target="_blank" alt="Django Public Project - CMS for public projects - GitHub">GitHub</a>). Im Einsatz bei Piratenfraktion Berlin (<a href="https://ber.piratenfraktion-berlin.de/" target="_blank" alt="BERwatch - Piratenfraktion Berlin">BERwatch</a>) sowie Piratenfraktion NRW (<a href="https://blb.piratenfraktion-nrw.de/" target="_blank" alt="BLBwatch - Piratenfraktion NRW">BLBwatch</a>).
+            <h4>Django Public Project/BERwatch.</h4>
+            <p>Open Source CMS for making big publicly funded
+            projects more transparent (<a href="http://django-public-project.org/" target="_blank" alt="Django Public Project - Website">Website</a>|<a href="https://github.com/holgerd77/django-public-project" target="_blank" alt="Django Public Project - CMS for public projects - GitHub">GitHub</a>).</p>
+
+            Used by the Pirate Party Factions in parliaments of Berlin and North Rhine-Westphalia for enquiry commissions around the Berlin airport construction (<a href="https://ber.piratenfraktion-berlin.de/" target="_blank" alt="BERwatch - Pirate Party Faction Berlin">BERwatch</a>) and real estate management and public spending (<a href="https://blb.piratenfraktion-nrw.de/" target="_blank" alt="BLBwatch - Pirate Party Faction NRW">BLBwatch</a>).
           </div>
           <div class="project-labels">
             <span class="label label-success">Active</span>
@@ -99,10 +103,19 @@
         </a>
         <div class="project-desc">
           <div class="project-text">
-            <b>Farmsubsidy.org.</b> Projekt zu Transparenz von EU-Agrarsubventionen, aktuell betreut durch <a href="http://okfn.de/" target="_blank" alt="Open Knowledge Foundation Deutschland">OKFN Deutschland</a>, Leitung <a href="http://stefanwehrmeyer.com" target="_blank" alt="Homepage Stefan Wehrmeyer">Stefan Wehrmeyer</a>. Neukonzeption der Scraper-Infrastruktur (<a href="https://github.com/openspending/farmsubsidy-scrapers" target="_blank" alt="Farmsubsidy Scraper - GitHub Repository">GitHub</a>), Scraper für Daten einzelner EU-Länder, <a href="http://farmsubsidy.readthedocs.org/en/latest/" target="_blank" alt="Farmsubsidy - technische Dokumentation">technische Dokumentation</a>.
+            <h4>Farmsubsidy.org.</h4>
+            <p>Project and web platform on the transparency of EU farmsubsidy payments run by <a href="http://journalismfund.eu/" target="_blank" alt="Journalismfund.eu">journalismfund.eu</a> and 
+            <a href="http://okfn.de/" target="_blank" alt="Open Knowledge Foundation Germany">OKF Germany</a>.</p>
+
+             Restructuring the scraping infrastructure (<a href="https://github.com/openspending/farmsubsidy-scrapers" target="_blank" alt="Farmsubsidy Scraper - GitHub Repository">GitHub</a>), data analysis and integration
+             of the yearly payments data from official EU public bodies, 
+             <a href="http://farmsubsidy.readthedocs.org/en/latest/" target="_blank" alt="Farmsubsidy - Technical  Documentation">technical documentation</a>.
           </div>
           <div class="project-labels">
-            <span class="label label-success">Success</span>
+            <span class="label label-success">Active</span>
+            <span class="label label-default">Linux Shell</span>
+            <span class="label label-default">RegExps</span>
+            <span class="label label-default">Docs</span>
           </div>
         </div>
       </div>
@@ -112,10 +125,16 @@
         </a>
         <div class="project-desc project-desc-inverted">
           <div class="project-text">
-            <b>Über mich.</b> Hallo, mein Name ist Holger Drewes, ich bin Software-Entwickler und arbeite und lebe in Berlin und Potsdam. Hier findet sich eine Auswahl meiner aktuellen Projekte. Im Rahmen der Drewes &amp; Scholz GbR betreibe ich außerdem die Mediathekensuchmaschine <a href="http://fernsehsuche.de/" target="_blank" alt="Mediathekensuchmaschine Fernsehsuche">fernsehsuche.de</a>.
+            <h4>About me.</h4>
+
+            <p>Hi, my name is Holger Drewes, I am software developer and I am working and living in Berlin and Potsdam
+            in Germany. On this page you can find a selection of my projects.</p>
+
+            In the context of a company - Drewes & Scholz GbR - I founded with a friend I am also running a search engine for German media and TV shows called 
+            <a href="http://mediathekensuche.de/" target="_blank" alt="Mediathekensuche.de">mediathekensuche.de</a>.
           </div>
           <div class="project-labels">
-            <span class="label label-success">Success</span>
+            &nbsp;
           </div>
         </div>
       </div>
@@ -129,7 +148,8 @@
         </a>
         <div class="project-desc">
           <div class="project-text">
-            <b>Open Data Showroom.</b> Referenz-Webseite mit ausgewählten Open Data-Projekten und Anwendungen aus verschiedenen Bereichen wie Verkehr, Wirtschaft oder Politik, oft genutzt zum Einstieg in die Thematik, z.B. bei Vorträgen oder in Publikationen.
+            <h4>Open Data Showroom.</h4>
+            Referenz-Webseite mit ausgewählten Open Data-Projekten und Anwendungen aus verschiedenen Bereichen wie Verkehr, Wirtschaft oder Politik, oft genutzt zum Einstieg in die Thematik, z.B. bei Vorträgen oder in Publikationen.
           </div>
           <div class="project-labels">
             <span class="label label-success">Success</span>
@@ -142,7 +162,8 @@
         </a>
         <div class="project-desc">
           <div class="project-text">
-            <b>Django Dynamic Scraper.</b> Bibliothek zum Extrahieren von Daten aus Webseiten auf Basis von Python/Django und dem Web Scraping-Framework Scrapy. Anwendung: Erstellung von Spezialsuchmaschinen, Open Data-Projekte, News-Aggregatoren,... Source Code auf <a href="https://github.com/holgerd77/django-dynamic-scraper" target="_blank" alt="Django Dynamic Scraper - GitHub Repository">GitHub</a>.
+            <h4>Django Dynamic Scraper.</h4>
+            Bibliothek zum Extrahieren von Daten aus Webseiten auf Basis von Python/Django und dem Web Scraping-Framework Scrapy. Anwendung: Erstellung von Spezialsuchmaschinen, Open Data-Projekte, News-Aggregatoren,... Source Code auf <a href="https://github.com/holgerd77/django-dynamic-scraper" target="_blank" alt="Django Dynamic Scraper - GitHub Repository">GitHub</a>.
           </div>
           <div class="project-labels">
             <span class="label label-success">Success</span>
@@ -155,7 +176,8 @@
         </a>
         <div class="project-desc">
           <div class="project-text">
-            <b>Koalitionsvertrag 2013.</b> Maschinenlesbare und kontextualisierbare Version des Koalitionsvertrages der derzeitigen deutschen Bundesregierung (CDU/SPD Koalition). Inhalte lassen sich direkt verlinken, z.B. <a href="http://holgerd77.github.io/koalitionsvertrag/1_wachstum/1_3_infrastruktur.html?highlight=maut#aufstockung-der-investitionsmittel" target="_blank" alt="Koalitionsvertrag 2013 - CDU und SPD - Verkehr/Maut">Maut</a>, <a href="http://holgerd77.github.io/koalitionsvertrag/1_wachstum/1_3_infrastruktur.html?highlight=maut#wlan" target="_blank" alt="Koalitionsvertrag 2013 - CDU und SPD - WLAN">WLAN</a>, usw.. Source Code auf <a href="https://github.com/holgerd77/koalitionsvertrag" target="_blank"alt="Koalitionsvertrag 2013 - CDU und SPD - verlinkbare Version - GitHub">GitHub</a>.
+            <h4>Koalitionsvertrag 2013.</h4>
+              Maschinenlesbare und kontextualisierbare Version des Koalitionsvertrages der derzeitigen deutschen Bundesregierung (CDU/SPD Koalition). Inhalte lassen sich direkt verlinken, z.B. <a href="http://holgerd77.github.io/koalitionsvertrag/1_wachstum/1_3_infrastruktur.html?highlight=maut#aufstockung-der-investitionsmittel" target="_blank" alt="Koalitionsvertrag 2013 - CDU und SPD - Verkehr/Maut">Maut</a>, <a href="http://holgerd77.github.io/koalitionsvertrag/1_wachstum/1_3_infrastruktur.html?highlight=maut#wlan" target="_blank" alt="Koalitionsvertrag 2013 - CDU und SPD - WLAN">WLAN</a>, usw.. Source Code auf <a href="https://github.com/holgerd77/koalitionsvertrag" target="_blank"alt="Koalitionsvertrag 2013 - CDU und SPD - verlinkbare Version - GitHub">GitHub</a>.
           </div>
           <div class="project-labels">
             <span class="label label-success">Success</span>
