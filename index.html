@@ -32,8 +32,25 @@
         border: 1px solid #aaa;
         font-family:'Courier New', Arial;
       }
-      .project-text {
-        min-height: 255px;
+      @media(max-width:767px){
+        .project-text {
+          min-height: 270px;
+        }
+      }
+      @media(min-width:768px){
+        .project-text {
+          min-height: 270px;
+        }
+      }
+      @media(min-width:992px){
+        .project-text {
+          min-height: 295px;
+        }
+      }
+      @media(min-width:1200px){
+        .project-text {
+          min-height: 255px;
+        }
       }
       .project-text h4 {
         font-size: inherit;
@@ -192,7 +209,7 @@
         <div class="project-desc">
           <div class="project-text">
             <h4>Nxt Cryptocurrency &gt; Client.</h4>
-              <p>Substantial source code reorganization, translation management, development of a HTML/Javascript plugin system and UI
+              <p>Substantial <a href="https://bitbucket.org/JeanLucPicard/nxt/" target="_blank" alt="Nxt Cryptocurrency - Bitbucket Source Code Repository">source code</a> reorganization, <a href="https://crowdin.com/project/nxt-ui-translation" target="_blank" alt="Nxt Cryptocurrency - Crowdin Translation Management">translation management</a>, development of an HTML/Javascript plugin system and the UI
               for phased transaction feature for the Nxt cryptocurrency browser client.</p>
               Nxt is one of the leading second-gen cryptocurrency projects building upon the inventions of the bitcoin
               protocol, current market valuation can be seen <a href="http://coinmarketcap.com/" target="_blank" alt="Coinmarketcap - Cryptocurrency coin valuations">here</a>.
